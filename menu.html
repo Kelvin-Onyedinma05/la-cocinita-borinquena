@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Menu — La Cocinita Borinqueña | Sayreville, NJ</title>
+<meta name="description" content="The full grab-and-go menu: alcapurrias, bacalaítos, rellenos de plátano maduro, the Antojitos sampler, holiday pasteles and fresh house sofrito. Order ahead for pickup in Sayreville, NJ." />
+<meta name="theme-color" content="#FAF6F0" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23D9232E'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' font-weight='bold' text-anchor='middle' fill='%23FAF6F0'%3EL%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<div class="announce" role="region" aria-label="Grand opening announcement">
+  <div class="announce-track">
+    <p class="announce-msg" data-i18n="announce">🇵🇷 Grand Opening Coming Soon at 365 Main St, Sayreville, NJ • Holiday Pasteles Pre-Orders Open!</p>
+  </div>
+</div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="La Cocinita Borinqueña — home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg class="brand-flag" viewBox="0 0 48 48" focusable="false">
+          <path d="M6 34a18 18 0 0 1 36 0" fill="none" stroke="#D9232E" stroke-width="2.6" stroke-linecap="round" />
+          <path d="M10.5 34a13.5 13.5 0 0 1 27 0" fill="none" stroke="#0047AB" stroke-width="2.6" stroke-linecap="round" />
+        </svg>
+        <svg class="brand-hibiscus" viewBox="0 0 24 24" focusable="false">
+          <g fill="#D9232E">
+            <ellipse cx="12" cy="6.2" rx="3.1" ry="4.6" />
+            <ellipse cx="12" cy="17.8" rx="3.1" ry="4.6" />
+            <ellipse cx="6.2" cy="12" rx="4.6" ry="3.1" />
+            <ellipse cx="17.8" cy="12" rx="4.6" ry="3.1" />
+          </g>
+          <circle cx="12" cy="12" r="2.5" fill="#D97706" />
+        </svg>
+        <span class="brand-mono">LCB</span>
+      </span>
+      <span class="brand-text">
+        <span class="brand-name">La Cocinita</span>
+        <span class="brand-sub">Borinqueña</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="menu.html" class="is-active" aria-current="page" data-i18n="navMenu">Menu</a>
+      <a href="pasteles.html" data-i18n="navPasteles">Holiday Pasteles</a>
+      <a href="location.html" data-i18n="navLocation">Location &amp; Hours</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button type="button" class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" class="lang-btn is-active" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
+      </div>
+      <button type="button" class="cart-btn" id="cartOpen" aria-label="Open cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.55L21 8H6" />
+          <circle cx="10" cy="20" r="1.4" /><circle cx="18" cy="20" r="1.4" />
+        </svg>
+        <span class="cart-btn-label" data-i18n="cartLabel">Cart</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="menu.html" class="is-active" aria-current="page" data-i18n="navMenu">Menu</a>
+    <a href="pasteles.html" data-i18n="navPasteles">Holiday Pasteles</a>
+    <a href="location.html" data-i18n="navLocation">Location &amp; Hours</a>
+    <a class="mm-call" href="tel:+17322343065">(732) 234-3065</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="index.html" data-i18n="crumbHome">Home</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page" data-i18n="navMenu">Menu</span>
+      </nav>
+      <span class="pill pill-red" data-i18n="menuBadge">Grab &amp; Go Menu</span>
+      <h1 class="page-title" data-i18n="menuTitle">Order ahead. Eat well. Keep moving.</h1>
+      <p class="section-lede" data-i18n="menuLede">Every order is made fresh when you place it. Tap any item to build your pickup order — no phone call, no waiting on hold.</p>
+    </div>
+  </section>
+
+  <section class="menu">
+    <div class="wrap">
+      <div class="menu-meta is-spaced">
+        <span class="open-dot"></span>
+        <span data-i18n="menuMeta">Opening Menu Preview</span>
+      </div>
+
+      <div class="filters" role="tablist" aria-label="Menu categories">
+        <button type="button" class="filter is-active" role="tab" aria-selected="true" data-filter="all" data-i18n="filterAll">All Favorites</button>
+        <button type="button" class="filter" role="tab" aria-selected="false" data-filter="frituras" data-i18n="filterFrituras">Frituras &amp; Antojitos</button>
+        <button type="button" class="filter" role="tab" aria-selected="false" data-filter="pasteles" data-i18n="filterPasteles">Holiday Pasteles</button>
+        <button type="button" class="filter" role="tab" aria-selected="false" data-filter="staples" data-i18n="filterStaples">House Staples</button>
+      </div>
+
+      <div class="cards" id="cards">
+
+        <article class="card" data-category="frituras">
+          <div class="card-media">
+            <img src="assets/img/menu-alcapurrias.jpg" alt="Golden alcapurrias fritters served on a banana leaf" width="1184" height="880" loading="lazy" />
+            <span class="card-tag" data-i18n="tagBestseller">Bestseller</span>
+          </div>
+          <div class="card-top">
+            <h3 data-i18n="item1Name">Alcapurrias</h3>
+            <p data-i18n="item1Desc">Crispy, golden homemade green banana &amp; yautía fritters stuffed with seasoned beef.</p>
+          </div>
+          <div class="card-bottom">
+            <span class="price">$4.50</span>
+            <button type="button" class="add-btn" data-add data-id="alcapurrias" data-name="Alcapurrias" data-name-es="Alcapurrias" data-price="4.50">
+              <span data-i18n="add">Add</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14" /></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="card" data-category="frituras">
+          <div class="card-media">
+            <img src="assets/img/menu-bacalaitos.jpg" alt="Crispy golden bacalaítos on parchment paper" width="1184" height="880" loading="lazy" />
+            <span class="card-tag" data-i18n="tagFresh">Fried to Order</span>
+          </div>
+          <div class="card-top">
+            <h3 data-i18n="item2Name">Bacalaítos</h3>
+            <p data-i18n="item2Desc">Large, crispy golden Puerto Rican salted codfish fritters fried fresh to order.</p>
+          </div>
+          <div class="card-bottom">
+            <span class="price">$4.50</span>
+            <button type="button" class="add-btn" data-add data-id="bacalaitos" data-name="Bacalaítos" data-name-es="Bacalaítos" data-price="4.50">
+              <span data-i18n="add">Add</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14" /></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="card" data-category="frituras">
+          <div class="card-media">
+            <img src="assets/img/menu-rellenos.jpg" alt="Sweet plantain rellenos filled with seasoned picadillo" width="1184" height="880" loading="lazy" />
+            <span class="card-tag" data-i18n="tagSweet">Sweet &amp; Savory</span>
+          </div>
+          <div class="card-top">
+            <h3 data-i18n="item3Name">Rellenos de Plátano Maduro</h3>
+            <p data-i18n="item3Desc">Sweet ripe plantain balls stuffed with savory seasoned picadillo.</p>
+          </div>
+          <div class="card-bottom">
+            <span class="price">$5.00</span>
+            <button type="button" class="add-btn" data-add data-id="rellenos" data-name="Rellenos de Plátano Maduro" data-name-es="Rellenos de Plátano Maduro" data-price="5.00">
+              <span data-i18n="add">Add</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14" /></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="card card-featured" data-category="frituras">
+          <div class="card-media">
+            <img src="assets/img/menu-sampler.jpg" alt="Grab-and-go sampler box filled with alcapurrias, bacalaítos and rellenos" width="1184" height="880" loading="lazy" />
+            <span class="card-tag tag-blue" data-i18n="tagSampler">Best Value</span>
+          </div>
+          <div class="card-top">
+            <h3 data-i18n="item4Name">Antojitos Borinqueños Sampler</h3>
+            <p data-i18n="item4Desc">Grab-and-go box featuring alcapurrias, bacalaítos, and rellenos de plátano.</p>
+          </div>
+          <div class="card-bottom">
+            <span class="price">$14.00</span>
+            <button type="button" class="add-btn" data-add data-id="sampler" data-name="Antojitos Borinqueños Sampler" data-name-es="Sampler de Antojitos Borinqueños" data-price="14.00">
+              <span data-i18n="add">Add</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14" /></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="card" data-category="pasteles">
+          <div class="card-media">
+            <img src="assets/img/pasteles.jpg" alt="Holiday pasteles wrapped in banana leaves" width="1184" height="880" loading="lazy" />
+            <span class="card-tag" data-i18n="tagHoliday">Holiday</span>
+          </div>
+          <div class="card-top">
+            <h3 data-i18n="item5Name">Holiday Pasteles (Dozen)</h3>
+            <p data-i18n="item5Desc">Traditional Puerto Rican masa &amp; seasoned meat wrapped in banana leaves.</p>
+            <div class="mini-seg" role="group" aria-label="Pasteles filling">
+              <button type="button" class="mini-btn is-active" data-variant="pork" data-i18n="proteinPork">Pork</button>
+              <button type="button" class="mini-btn" data-variant="chicken" data-i18n="proteinChicken">Chicken</button>
+            </div>
+          </div>
+          <div class="card-bottom">
+            <span class="price">$45.00</span>
+            <button type="button" class="add-btn" data-add data-id="pasteles-dozen" data-name="Holiday Pasteles (Dozen)" data-name-es="Pasteles Navideños (Docena)" data-price="45.00" data-variant-source>
+              <span data-i18n="add">Add</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14" /></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="card" data-category="pasteles">
+          <div class="card-media">
+            <img src="assets/img/menu-pasteles.jpg" alt="Puerto Rican pastel unwrapped from its banana leaf" width="1184" height="880" loading="lazy" />
+            <span class="card-tag" data-i18n="tagHoliday">Holiday</span>
+          </div>
+          <div class="card-top">
+            <h3 data-i18n="item7Name">Holiday Pasteles (Half-Dozen)</h3>
+            <p data-i18n="item7Desc">Half a dozen of our hand-wrapped pasteles — perfect for a small gathering.</p>
+            <div class="mini-seg" role="group" aria-label="Pasteles filling">
+              <button type="button" class="mini-btn is-active" data-variant="pork" data-i18n="proteinPork">Pork</button>
+              <button type="button" class="mini-btn" data-variant="chicken" data-i18n="proteinChicken">Chicken</button>
+            </div>
+          </div>
+          <div class="card-bottom">
+            <span class="price">$24.00</span>
+            <button type="button" class="add-btn" data-add data-id="pasteles-half" data-name="Holiday Pasteles (Half-Dozen)" data-name-es="Pasteles Navideños (Media Docena)" data-price="24.00" data-variant-source>
+              <span data-i18n="add">Add</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14" /></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="card" data-category="staples">
+          <div class="card-media">
+            <img src="assets/img/menu-sofrito.jpg" alt="Jar of fresh house sofrito with peppers and culantro" width="1184" height="880" loading="lazy" />
+            <span class="card-tag" data-i18n="tagPantry">Pantry</span>
+          </div>
+          <div class="card-top">
+            <h3 data-i18n="item6Name">Fresh House Sofrito (16 oz Jar)</h3>
+            <p data-i18n="item6Desc">Scratch-made blend of culantro, sweet peppers, garlic, and herbs.</p>
+          </div>
+          <div class="card-bottom">
+            <span class="price">$8.50</span>
+            <button type="button" class="add-btn" data-add data-id="sofrito" data-name="Fresh House Sofrito (16 oz Jar)" data-name-es="Sofrito Casero Fresco (16 oz)" data-price="8.50">
+              <span data-i18n="add">Add</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14" /></svg>
+            </button>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="menu-disclaimer" data-i18n="menuDisclaimer">*Opening Menu Preview — Final pricing updated at launch.</p>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <div class="band-inner">
+        <div>
+          <h2 data-i18n="crosssellTitle">Ordering for the holidays?</h2>
+          <p data-i18n="crosssellText">Pasteles are pre-order only and run in limited batches. Reserve yours on the pasteles page.</p>
+        </div>
+        <a class="btn btn-primary" href="pasteles.html">
+          <span data-i18n="crosssellCta">Go to Holiday Pasteles</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7" /></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a class="brand brand-footer" href="index.html">
+        <span class="brand-mark" aria-hidden="true"><span class="brand-mono">LCB</span></span>
+        <span class="brand-text">
+          <span class="brand-name">La Cocinita</span>
+          <span class="brand-sub">Borinqueña</span>
+        </span>
+      </a>
+      <p data-i18n="footerBlurb">Authentic Puerto Rican grab-and-go, made with love and sazón. Coming soon to Sayreville, New Jersey.</p>
+      <div class="socials">
+        <a href="https://instagram.com/lacocinitaborinquena" target="_blank" rel="noopener" aria-label="Instagram @lacocinitaborinquena">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none" /></svg>
+          <span>@lacocinitaborinquena</span>
+        </a>
+        <a href="https://tiktok.com/@la.cocinita43" target="_blank" rel="noopener" aria-label="TikTok @la.cocinita43">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.5 3h-2.6v11.3a2.6 2.6 0 1 1-2.1-2.55V9.1a5.2 5.2 0 1 0 4.7 5.18V8.6a6.2 6.2 0 0 0 3.5 1.1V7.1a3.6 3.6 0 0 1-3.5-3.6z" /></svg>
+          <span>@la.cocinita43</span>
+        </a>
+        <a href="https://facebook.com/lacocinitaborinquena" target="_blank" rel="noopener" aria-label="Facebook La Cocinita Borinqueña">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.87.24-1.46 1.5-1.46h1.6V4.4A21 21 0 0 0 14.2 4.3c-2.3 0-3.9 1.4-3.9 4v2.2H7.7v3h2.6V21z" /></svg>
+          <span>La Cocinita Borinqueña</span>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footerVisit">Visit</h4>
+      <p>365 Main Street<br />Sayreville, NJ 08872</p>
+      <a href="https://maps.google.com/?q=365+Main+Street,+Sayreville,+NJ+08872" target="_blank" rel="noopener" data-i18n="getDirections">Get Directions</a>
+      <a href="tel:+17322343065">(732) 234-3065</a>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footerExplore">Explore</h4>
+      <a href="menu.html" data-i18n="navMenu">Menu</a>
+      <a href="pasteles.html" data-i18n="navPasteles">Holiday Pasteles</a>
+      <a href="location.html" data-i18n="navLocation">Location &amp; Hours</a>
+      <a href="index.html#vip" data-i18n="vipNav">VIP List</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© <span id="year">2026</span> La Cocinita Borinqueña. <span data-i18n="rights">All rights reserved.</span></p>
+    <p class="footer-made" data-i18n="footerMade">Hecho con ❤️ y sazón boricua.</p>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
